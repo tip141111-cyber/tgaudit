@@ -9,7 +9,7 @@ from docx import Document
 from docx.oxml.ns import qn
 
 # ---------------- Настройки ----------------
-BOT_TOKEN = "7388004511:AAEVOtZtcFfEae3hNeLe9ZlqWOY3ZcfH9bY"
+BOT_TOKEN = ""
 DB_PATH = os.path.join(os.path.dirname(__file__), "audit.db")
 TEMPLATE_PATH = os.path.join(os.path.dirname(__file__), "data", "act_fundament_template.docx")
 
@@ -546,4 +546,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
